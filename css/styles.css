@@ -13,6 +13,7 @@
         padding: 0;
         font-family: 'Poppins', sans-serif;
         font-weight: 300;
+        font-size: 62.5%;
     }
 
     .app-container {
@@ -58,7 +59,8 @@
     .footer {
         background-color: var(--verde);
         color: white;
-        height: 110px;
+        height: 10rem;
+        min-height: 6rem;
         display: flex;
     }
 
@@ -66,10 +68,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 18px;
-        padding: 15px 0;
+        padding: 0.5em 0;
         width: 100%;
-        height: 100%;
+        height: auto;
     }
 
     .footer .nav-item {
@@ -87,7 +88,7 @@
 
     .myicon-footer {
         color: var(--white);
-        font-size: 40px; /
+        font-size: 4rem;
         transition: transform 0.3s ease;
     }
 
@@ -105,34 +106,34 @@
         color: white;
     }
 
-    @media (max-width: 1024px) {
-    .table.mytable > :not(caption) > * > * { font-size: 18px; }
-    .myicon-footer { font-size: 32px; }
-    .footer { height: 90px; }
+    @media (max-width: 102.4rem) { /* 1024px */
+        .table.mytable > :not(caption) > * > * { font-size: 1.8rem; } /* 18px */
+        .myicon-footer { font-size: 3.2rem; } /* 32px */
+        .footer { height: 8vh; }
     }
 
-    @media (max-width: 768px) {
-    .table.mytable > :not(caption) > * > * { font-size: 18px; }
-    .myicon-footer { font-size: 30px; }
-    .footer { height: 85px; }
+    @media (max-width: 76.8rem) { /* 768px */
+        .table.mytable > :not(caption) > * > * { font-size: 1.8rem; }
+        .myicon-footer { font-size: 3rem; } /* 30px */
+        .footer { height: 6vh; }
     }
 
-    @media (max-width: 576px) {
-    .table.mytable > :not(caption) > * > * { font-size: 14px; }
-    .myicon-footer { font-size: 26px; }
-    .footer { height: 75px; }
-    .mybtn {
-        padding: 6px 12px;
-        font-size: 14px;
+    @media (max-width: 57.6rem) { /* 576px */
+        .table.mytable > :not(caption) > * > * { font-size: 1.4rem; } /* 14px */
+        .myicon-footer { font-size: 2.6rem; } /* 26px */
+        .footer { height: 4vh; }
+        .mybtn {
+            padding: 0.6em 1.2em;
+            font-size: 1.4rem;
         }
     }
-
-    @media (max-width: 375px) {
-    .table.mytable > :not(caption) > * > * { font-size: 12px; }
-    .myicon-footer { font-size: 22px; }
-    .footer { height: 70px; }
-    .mybtn {
-        padding: 4px 10px;
-        font-size: 12px;
+    
+    @media (max-width: 37.5rem) { /* 375px */
+        .table.mytable > :not(caption) > * > * { font-size: 1.2rem; } /* 12px */
+        .myicon-footer { font-size: 2.2rem; } /* 22px */
+        .footer { height: 2vh; }
+        .mybtn {
+            padding: 0.4em 0.8em;
+            font-size: 1.2rem;
         }
     }
