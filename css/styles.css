@@ -105,6 +105,10 @@
         color: var(--white);
     }
 
+    .mybtn:hover .myicon-filter {
+        color: var(--white);
+    }
+
     @media (max-width: 102.4rem) {
         .table.mytable > :not(caption) > * > * { font-size: 1.8rem; }
         .myicon-footer { font-size: 3.2rem; }
