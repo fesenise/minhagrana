@@ -29,7 +29,6 @@
         padding-bottom: 1vh;
     }
 
-
     .mylogo {
         max-width: 150px;
     }
@@ -53,12 +52,12 @@
 
     .table.table-striped.table-hover tbody tr:hover td {
         background-color: var(--verde-hover);
-        color: white;
+        color: var(--white);
     }
 
     .footer {
         background-color: var(--verde);
-        color: white;
+        color: var(--white);
         height: 10rem;
         min-height: 6rem;
         display: flex;
@@ -103,24 +102,24 @@
 
     .mybtn:hover {
         background-color: var(--verde-hover);
-        color: white;
+        color: var(--white);
     }
 
-    @media (max-width: 102.4rem) { /* 1024px */
-        .table.mytable > :not(caption) > * > * { font-size: 1.8rem; } /* 18px */
-        .myicon-footer { font-size: 3.2rem; } /* 32px */
+    @media (max-width: 102.4rem) {
+        .table.mytable > :not(caption) > * > * { font-size: 1.8rem; }
+        .myicon-footer { font-size: 3.2rem; }
         .footer { height: 8vh; }
     }
 
-    @media (max-width: 76.8rem) { /* 768px */
+    @media (max-width: 76.8rem) {
         .table.mytable > :not(caption) > * > * { font-size: 1.8rem; }
-        .myicon-footer { font-size: 3rem; } /* 30px */
+        .myicon-footer { font-size: 3rem; }
         .footer { height: 6vh; }
     }
 
-    @media (max-width: 57.6rem) { /* 576px */
-        .table.mytable > :not(caption) > * > * { font-size: 1.4rem; } /* 14px */
-        .myicon-footer { font-size: 2.6rem; } /* 26px */
+    @media (max-width: 57.6rem) {
+        .table.mytable > :not(caption) > * > * { font-size: 1.4rem; }
+        .myicon-footer { font-size: 2.6rem; }
         .footer { height: 4vh; }
         .mybtn {
             padding: 0.6em 1.2em;
@@ -128,9 +127,9 @@
         }
     }
     
-    @media (max-width: 37.5rem) { /* 375px */
-        .table.mytable > :not(caption) > * > * { font-size: 1.2rem; } /* 12px */
-        .myicon-footer { font-size: 2.2rem; } /* 22px */
+    @media (max-width: 37.5rem) {
+        .table.mytable > :not(caption) > * > * { font-size: 1.2rem; }
+        .myicon-footer { font-size: 2.2rem; }
         .footer { height: 2vh; }
         .mybtn {
             padding: 0.4em 0.8em;
